@@ -3,7 +3,7 @@ VisionDriveX — Explainable Autonomous Driving Perception System 🚗🧠
 VisionDriveX is a multi-task autonomous driving perception system that performs traffic-sign classification, stop-sign detection, and lane segmentation, with explainable AI (Grad-CAM) to visualize model attention.
 Designed for research, demo presentations, and real-time AV perception prototypes.
 
-🔥 Features
+🔥Features
 
 Traffic Sign Classification (GTSRB — 43 classes)
 Stop-Sign Detection using Faster R-CNN
