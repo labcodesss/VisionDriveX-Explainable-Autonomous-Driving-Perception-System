@@ -23,17 +23,13 @@ py -m pip install --upgrade pip
 py -m pip install -r requirements.txt
 
 🧠 GTSRB Human Labels File
-
 Generate class-name mapping:
 py scripts\make_labels.py
 
 Creates:
 data/gtsrb/labels.json
-
 🎥 Real-Time Demo (Webcam)
-
 Run the fast perception pipeline:
-
 py -m src.realtime.realtime_fast --device cpu --cam 0 ^
   --cls_weights checkpoints/classifier_resnet18_epoch3.pth ^
   --det_weights checkpoints/det/fasterrcnn_epoch3.pth ^
